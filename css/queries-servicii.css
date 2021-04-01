@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+
+  /*****Top Container****/
+  .container-fluid {
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 70px;
+    line-height: 1.5rem;
+    padding-top: 22px;
+  }
+
+  .fa-facebook-square {
+    visibility: hidden;
+  }
+
+  /********NAV BAR********/
+  .navbar-collapse.collapse.show {
+    position: absolute;
+    z-index: 100;
+    top: 70px;
+    background: white;
+    display: block;
+    width: 90%;
+  }
+
+  .decor-content {
+    font-size: 2rem;
+    padding-top: 35px;
+  }
+
+  .content-section-decor {
+    height: 100px;
+  }
+  .servicii-images {
+    width:100%;
+  }
+  .details-div {
+    width:100%;
+    height:300px;
+  }
+}

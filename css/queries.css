@@ -1,0 +1,62 @@
+@media (max-width: 767.98px) {
+
+  /*****Top Container****/
+  .container-fluid {
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 70px;
+    line-height: 1.5rem;
+    padding-top: 22px;
+  }
+.fa-facebook-square {
+  visibility: hidden;
+}
+  /********NAV BAR********/
+   .navbar-collapse.collapse.show{
+    position: absolute;
+    z-index: 100;
+    top: 70px;
+    background: white;
+    display: block;
+    width: 90%;
+  }
+
+  /******CAROUSEL******/
+  .d-block {
+    height: 500px;
+  }
+
+  .carousel-secondslide-h3 {
+    font-size: 1.5rem;
+    top: 35%;
+    left: 50px;
+  }
+
+  .carousel-secondslide-paragraph {
+    font-size: 1rem;
+    top: 47%;
+    left: 50px
+}
+/******INTRO START*******/
+.button-intro {
+  width:100%;
+  margin-top:10px;
+
+}
+}
+@media (max-width: 992px) {
+  /*****CAROUSEL*****/
+
+  .carousel-secondslide-h3-details{
+   top:40%;
+      }
+
+    }
+
+    @media (max-width: 768px){
+      .carousel-secondslide-h3 {
+       font-size:1.5rem !important;  }
+    }

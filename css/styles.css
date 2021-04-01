@@ -1,0 +1,193 @@
+a {
+  color:#ffffffde;
+  font-size:0.8rem;  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+  }
+
+
+                    /******** TOP CONTAINER *******/
+.first-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  display:flex;
+  align-items: center;
+}
+.details {
+  padding-right: 30px;
+}
+.details:hover {
+  color:red;
+}
+.container-fluid {
+  background-color: #111f4d;
+  height:50px;
+}
+
+                       /********* NAV-BAR *********/
+.navbar{
+  height:80px;
+
+}
+.navbar-light .navbar-brand {
+color:  #bd2130;
+}
+.collapse {
+  text-transform: uppercase;
+}
+.anchor-nav:hover {
+  color:red;
+}
+                      /********* CAROUSEL *********/
+.d-block{
+  width: 100%;
+  height:auto;
+  max-height:700px;
+  object-fit: cover;
+}
+.info_slider
+{
+  position: absolute;
+  top: 30%;
+  margin: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-left: 3px solid #e43a19;
+  padding-left: 20px;
+}
+.carousel-secondslide-h3{
+
+    color: white;
+    font-size:3rem;
+}
+.carousel-secondslide-paragraph{
+
+    color:#f8f9fae0;
+    font-size:2rem;
+
+}
+.carousel-item::before {
+   content: '';
+   width:100%;
+   height:100%;
+   position: absolute;
+   background-color: #062848;
+   opacity:0.5;
+}
+/*******INTRO-START******/
+.content-section{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.intro-image {
+  max-width:100%;
+}
+.fas {
+  font-size:1rem;
+  padding-right: 5px;
+}
+.col-12 {
+line-height:2rem;
+}
+.text-decor-1 {
+color: #bd2130;
+font-size: .7rem;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 2px;
+}
+.text-decor-2 {
+  font-size:2.5rem;
+  line-height:1.4
+}
+/*******SERVICES-START*******/
+.button-intro-intro{
+  margin-top:10px;
+  width:100%;
+  background-color: #121f4d;
+  border-color: #121f4d;
+}
+.btn-btnbtn{
+  background-color: #121f4d;
+  border-color: #121f4d;
+}
+.button-intro{
+  width:100%;
+}
+.title {
+  font-weight: 800;
+  letter-spacing: -2px;
+  text-align:center;
+}
+.icon-details-services{
+  text-align:center;
+  color:red;
+}
+.icon-sageata {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.avantaj {
+  line-height:1.8rem;
+  margin-bottom: 60px;
+}
+.title-1 {
+  font-weight: 800;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+}
+.icon-content {
+  padding-right: 20px;
+  color:red;
+  font-size:40px;
+}
+.col-xl-4 {
+  padding-bottom: 20px;
+}
+.text {
+  line-height:1.8rem;
+}
+.button-content {
+  text-align: center;
+}
+/*******Footer*****/
+.site-footer {
+  background-color:#f2f4f7;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  margin-top:60px;
+}
+.footer-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.logo-footer {
+  color:  #bd2130;
+  font-weight: 800;
+  letter-spacing: -1px;
+  padding-bottom: 10px;
+}
+.footer-border {
+  border-bottom: 3px solid #e43a19;
+  padding: 10px 10px 35px 10px;
+ }
+.footer-paragraph {
+  padding-left: 10px;
+  padding-top: 20px;
+  line-height:3rem;
+}
+.footer-paragraph-details{
+  line-height:3rem;
+  padding-left: 10px;
+}
+.footer-anchor{
+  color:#000;
+}
+.footer-anchor:hover {
+  color:red;
+}
